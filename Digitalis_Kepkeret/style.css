@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(180deg, rgb(239, 237, 237), rgb(41, 248, 227));
+    background-attachment: fixed;
+    color: black;
+}
+.dark-mode{
+    background-image: linear-gradient(180deg,rgb(37, 37, 37),rgb(27, 99, 91));
+    color: antiquewhite;
+}
+.divBG{
+    background-color: rgba(35, 35, 35, 0.75);
+    color: antiquewhite;
+}

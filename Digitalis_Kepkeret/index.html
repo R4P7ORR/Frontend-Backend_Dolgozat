@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digitális Képkeret</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <div class="row divBG">
+            <div class="col-12">
+              Adja meg a következő adatokat! <hr>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              URL:
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <input type="text" placeholder="Ide írja a kép URL címét!" id="inputURL">
+            </div>
+            <div class="col-md-4 col-sm-12">
+              Kép szélessége (pixel):
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <input type="number" value="600" id="inputWidth">
+            </div>
+            <div class="col-md-4 col-sm-12">
+              Keret vastagsága (pixel):
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <input type="number" value="5" id="borderWidth">
+            </div>
+            <div class="col-md-4 col-sm-12">
+              Keret színe:
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <input type="color" id="borderColor">
+            </div>
+            <!--<div class="col-12">
+              <button id="sendButton">Mehet</button>
+            </div>-->
+          </div>
+        </div>
+
+        <div class="col-md-7 col-sm-12">
+          <img src="https://i.imgur.com/O89vfci.jpeg" style="border: solid; border-color: aqua; border-width: 5px;" width="500px" id="outputImage" alt="Itt jelenik meg a kép">
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      Kozma Péter <br> <hr>
+      <button id="lightDarkMode">Sötét / Világos mód</button>  
+    </footer>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
